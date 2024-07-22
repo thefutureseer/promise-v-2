@@ -1,0 +1,12 @@
+{
+  "name": "promise-v-2",
+  "version": "1.0.0",
+  "description": "To learn JavaScript promises from the beginning, we'll go through a structured process. Here are the steps:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
