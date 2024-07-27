@@ -74,22 +74,24 @@ class MyPromise {
 // Example Usage:
 
 // Create a new MyPromise instance
-const myPromise = new MyPromise((resolve, reject) => {
-  // Simulate an asynchronous operation
-  setTimeout(() => {
-    resolve('Promise resolved!');  // Resolve the promise after 1 second
-    // reject('Promise rejected!');  // Uncomment to test rejection
-  }, 1000);
-});
+// const myPromise = new MyPromise((resolve, reject) => {
+//   // Simulate an asynchronous operation
+//   setTimeout(() => {
+//     resolve('Promise resolved!');  // Resolve the promise after 1 second
+//     // reject('Promise rejected!');  // Uncomment to test rejection
+//   }, 1);
+// });
 
 // Chain methods to handle the promise resolution or rejection
-myPromise
-  .then(result => {
-    console.log(result);  // Log the resolved value
-  })
-  .catch(error => {
-    console.log(error);  // Log the rejection reason
-  })
-  .finally(() => {
-    console.log('Promise is settled.');  // Log when the promise is settled
-  });
+// myPromise
+//   .then(result => {
+//     console.log(result);  // Log the resolved value
+//   })
+//   .catch(error => {
+//     console.log(error, " plus my error msg");  // Log the rejection reason
+//   })
+//   .finally(() => {
+//     console.log('Promise is settled.');  // Log when the promise is settled
+//   });
+
+  module.exports = MyPromise;
